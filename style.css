@@ -78,7 +78,7 @@ html, body {
 }
 
 .circule-img1 {
-    text-align: center;
+ text-align: center;
   flex: 1;
   font-size: x-large;
   font-family: sans-serif;
@@ -101,7 +101,7 @@ html, body {
 .circule-img2 p {
   margin: 0;
   font-size:30px;
-  line-height: 1.6;
+
 }
 
 .phi {
@@ -130,7 +130,7 @@ html, body {
   justify-content: center;
   gap: 80px;
   margin-top: 30px;
-  font-size: large;
+  font-size: xx-large;
   color: blue;
   font-family: sans-serif;
   cursor: pointer;
@@ -222,9 +222,41 @@ html, body {
 }
 .para7{
     clear: both;
-    margin: 30px;
+    padding: 50px;
+    margin: 60px;
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: xx-large;
+}
+.footer
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 70px;
+}
+
+.foot2{
+  margin: 20px;
+  font-size: 25px;
+}
+.foot3{
+  margin: 20px;
+  padding: 10px;
+  font-size: 25px;
+}
+.footer4{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: x-large;
+}
+
+.footer4 a:hover {
+  cursor: pointer;
+   opacity: 0.6;
+  transition: opacity 0.5s ease;
+  color: plum;
 }

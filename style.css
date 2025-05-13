@@ -14,8 +14,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 50px;  
-    margin-right: 90px ;
+ 
     border: 2px solid lightgoldenrodyellow;
 }
 .img-box{
@@ -60,80 +59,172 @@ html, body {
   border-radius: 4px;
   cursor: pointer;
   font-family: sans-serif;
-  max-width: 200px;         /* Optional: limit how wide it gets */
-
-  margin: 0;           /* Center the button */
+  max-width: 200px;       
+  margin: 40px;
 }
 
 .signup-button:hover {
   background-color: #1a5fb4;
 }
 
-.circule-img{
-    margin-top: 100px ;
-    padding: 90px;
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
+.circule-img {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 0 50px;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
+.circule-img1 {
+    text-align: center;
+  flex: 1;
+  font-size: x-large;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .circule-img2 {
-    padding: 50px ;
-    font-size: large;
-    font-family: sans-serif;
-}
-.circule-img2 p{
-    font-family: sans-serif;
-    font-size: 25px;
-}
-.phi{
-    font-size:xx-large;
-    color: blue;
- font-family: sans-serif;
-} 
-.phi{
-    font-size:xx-large;
-    color: blue;
-    font-family: sans-serif;
-} 
-  
- .phi:hover{
-    color: black;
+    text-align: center;
+  font-size: xx-large;
 }
 
+.circule-img2 h2 {
+  margin: 0 0 10px;
+  font-size: 35px;
+  font-weight: 600;
+}
 
-.h1{
-    display: flex;
-    gap:100px;  
-    font-size:xx-large;
-    color: blue;
-    font-family: sans-serif;
-} 
-  
- .h1:hover{
-    color: black;
+.circule-img2 p {
+  margin: 0;
+  font-size:30px;
+  line-height: 1.6;
 }
-h1.img{
-    margin-left: 5px;
-    vertical-align: middle; 
+
+.phi {
+  font-size: large;
+  color: blue;
+  font-family: sans-serif;
+  cursor: pointer;
 }
+
+.phi:hover {
+  color: black;
+}
+
+.imgbox {
+  flex: 1;
+  text-align: center;
+}
+
+.circule-img3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 30px;
+  font-size: large;
+  color: blue;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.h1 span:hover {
+  color: black;
+}
+
+/*  this is new logo page*/
 .img-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 0;
+  padding: 200px 0;
   background-color:7#fff; /* Optional: white background */
-  margin-right: 400px;
+ 
 }
 
 .logo1 img {
-  max-width: 100%;
+  max-width: 200%;
   height: auto;
-  opacity: 0.6;
-  transition: opacity 0.3s ease;
+ 
+  
 }
 
 .logo1 img:hover {
   cursor: pointer;
+   opacity: 0.6;
+  transition: opacity 0.5s ease;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 200px;
+}
+.box1{
+    margin-left: 30px;
+    clear: both;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 20px;
+    font-size: x-large;
+}
+.box1 p {
+    padding: 20px;
+    margin: 20px;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+.pri{
+    font-size: xx-large;
+    color: blue;
+    float: left;
+}
+.pri:hover{
+    color: black;
+    cursor: pointer;
+}
+.p1{
+    font-size: large;
 }
 
+.box2 {
+  align-items: center;
+  gap: 10px;
+  max-width: 300px;
+}
 
+.box2 img {
+  width: 150px; 
+  height: auto;
+}
+
+.box-img{
+    margin-top: 40px;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    font-size: large;
+    gap: 90px;
+}
+.box-img2 p{
+    margin: 30px;
+    font-size: xx-large;
+    margin-right: 300px;
+    
+}
+.para7{
+    clear: both;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}

@@ -150,12 +150,13 @@ html, body {
   align-items: center;
   padding: 200px 0;
   background-color:7#fff; /* Optional: white background */
- 
+
 }
 
 .logo1 img {
-  max-width: 200%;
-  height: auto;
+  max-width: 250%;
+  height: 90px;
+
  
   
 }
@@ -245,12 +246,22 @@ html, body {
 
 .foot2{
   margin: 20px;
-  font-size: 25px;
+  font-size: x-large;
+  font-family: sans-serif;
+
+}
+
+.foot2 li{
+    list-style-type: none; 
 }
 .foot3{
   margin: 20px;
   padding: 10px;
-  font-size: 25px;
+  font-size: x-large;
+  font-family: sans-serif;
+}
+.foot3 li{
+    list-style-type: none; 
 }
 .footer4{
   margin: 30px;
@@ -258,6 +269,7 @@ html, body {
   justify-content: center;
   text-align: center;
   font-size: x-large;
+  font-family: sans-serif;
 }
 
 .footer4 F1:hover {
